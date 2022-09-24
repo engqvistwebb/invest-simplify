@@ -6,14 +6,40 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "classnames": "^2.3.2",
+    "core-js": "^3.25.2",
+    "css-loader": "^6.7.1",
+    "fundamental-styles": "^0.24.4",
+    "hoist-non-react-statics": "^3.3.2",
     "next": "12.3.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass-loader": "^13.0.2",
+    "storybook": "^6.5.12",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-cssresources": "^6.2.9",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.2.5",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1"
   }
